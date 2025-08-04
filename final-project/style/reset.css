@@ -1,0 +1,81 @@
+/* RESET.CSS */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML & BODY */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
+}
+
+/* REMOVE LIST STYLES */
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* REMOVE QUOTE DEFAULT STYLES */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* LINK RESET */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FORM ELEMENTS RESET */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* IMG */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+/* HEADING & PARAGRAPH RESET */
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: normal;
+}
+
+/* SECTION & CONTAINERS */
+section {
+  display: block;
+}
+
+/* TABLES  */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
